@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  width: 35rem;
+}
+.filter--div {
+  display: flex;
+  align-items: center;
+}
+.mobile--filter--div {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter--div > h3 {
+  margin-right: 5rem;
+}
+
+@media (max-width: 1015px) {
+  .filter--div {
+    display: flex;
+    max-width: 98%;
+    flex-wrap: wrap;
+  }
+  .filter--div > h3 {
+    margin-left: 10rem;
+  }
+  .mobile--filter--div {
+    display: flex;
+    gap: 3rem;
+    margin-top: 20px;
+  }
+  .list {
+    align-items: center;
+  }
+}

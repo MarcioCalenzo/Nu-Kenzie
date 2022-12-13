@@ -1,0 +1,28 @@
+.total--container {
+  border: 1px solid var(--grey-2);
+  border-radius: 4px;
+  width: 100%;
+  height: 7rem;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.total--container > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#totalValue {
+  color: var(--color-primary);
+  font-size: 1rem;
+  font-weight: 700;
+}
+@media (max-width: 1015px) {
+  .total--container {
+    max-width: 98%;
+  }
+}

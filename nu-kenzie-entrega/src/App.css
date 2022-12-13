@@ -1,0 +1,26 @@
+main {
+  width: 90%;
+  max-width: 62.5rem;
+  min-height: 79.8vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sectionDash {
+  display: flex;
+  justify-content: space-around;
+}
+
+aside {
+  width: 22.7rem;
+}
+@media (max-width: 1015px) {
+  .sectionDash {
+    display: flex;
+    flex-direction: column;
+  }
+  .dashboard {
+    margin-left: 20px;
+  }
+}
